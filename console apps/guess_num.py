@@ -42,3 +42,8 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("Quiting from the script")
         sys.exit(0)
+
+# NOTE:
+# GUESS NUM
+# BY XXHIEXX
+# https://github.com/111XXHieXX111/Miniprojects

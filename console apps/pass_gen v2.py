@@ -34,3 +34,8 @@ if __name__ == "__main__":
         traceback.print_exc()
         time.sleep(1)
         sys.exit(-1)
+
+# NOTE:
+# PASS GEN V2
+# BY XXHIEXX
+# https://github.com/111XXHieXX111/Miniprojects

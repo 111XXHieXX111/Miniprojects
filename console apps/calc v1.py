@@ -37,3 +37,8 @@ if __name__ == "__main__":
         print("Quiting from the script")
         sys.exit(0)
         
+# NOTE:
+# CALC V1
+# BY XXHIEXX
+# https://github.com/111XXHieXX111/Miniprojects
+        
