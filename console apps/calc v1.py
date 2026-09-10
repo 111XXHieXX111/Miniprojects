@@ -21,18 +21,19 @@ def get_solution(example:str):
 
     return str(eval(out_example))
 
-try:
-    while True:
-        example = input()
-        solution = get_solution(example)
-        print(solution)
-except Exception:
-    traceback.print_exc()
-            
-    time.sleep(1)
-    sys.exit(-1)
+if __name__ == "__main__":
+    try:
+        while True:
+            example = input()
+            solution = get_solution(example)
+            print(solution)
+    except Exception:
+        traceback.print_exc()
+                
+        time.sleep(1)
+        sys.exit(-1)
 
-except KeyboardInterrupt:
-    print("Quiting from the script")
-    sys.exit(0)
-    
+    except KeyboardInterrupt:
+        print("Quiting from the script")
+        sys.exit(0)
+        
